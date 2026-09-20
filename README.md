@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🩺 PaAnaBot (Pre-Anamnesis Bot)
+# PaAnaBot (Pre-Anamnesis Bot)
 
 **An intelligent healthcare chat platform bridging the gap between Doctors and Patients.**
 
@@ -10,16 +10,16 @@
 [![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 [![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)](https://jwt.io/)
 
-[Features](#-key-features) •
-[Tech Stack](#-tech-stack) •
-[Getting Started](#-getting-started) •
-[Architecture](#-architecture)
+[Features](#key-features) •
+[Tech Stack](#tech-stack) •
+[Getting Started](#getting-started) •
+[Architecture](#architecture)
 
 </div>
 
 ---
 
-## 📖 About The Project
+## About The Project
 
 **PaAnaBot** is a real-time backend platform designed to streamline medical consultations. By facilitating instant communication between patients and healthcare professionals, it aims to perform **Pre-Anamnesis**—gathering preliminary medical histories and identifying potential symptoms before the actual clinical consultation begins.
 
@@ -27,17 +27,17 @@ Using a custom **Symptom Mining Engine**, the system analyzes patient interactio
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **🔐 Secure Role-Based Auth:** Robust JWT (JSON Web Token) authentication separating Doctor and Patient workflows.
-- **💬 Real-Time Messaging:** Instant, bidirectional communication powered by WebSockets (STOMP).
-- **🧠 Symptom Mining Engine:** Analyzes chat histories to intelligently mine and rank patient symptoms.
-- **📊 Interactive Dashboards:** Personalized data feeds and statistics for both healthcare providers and patients.
-- **🧾 Automated Reports:** Seamless generation and tracking of medical reports directly linked to chat sessions.
+- **Secure Role-Based Auth:** Robust JWT (JSON Web Token) authentication separating Doctor and Patient workflows.
+- **Real-Time Messaging:** Instant, bidirectional communication powered by WebSockets (STOMP).
+- **Symptom Mining Engine:** Analyzes chat histories to intelligently mine and rank patient symptoms.
+- **Interactive Dashboards:** Personalized data feeds and statistics for both healthcare providers and patients.
+- **Automated Reports:** Seamless generation and tracking of medical reports directly linked to chat sessions.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 This project is built using modern Java full-stack technologies:
 
@@ -49,7 +49,7 @@ This project is built using modern Java full-stack technologies:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
@@ -80,7 +80,7 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 
-## 🏗 Architecture 
+## Architecture 
 
 Here is a high-level overview of how the PaAnaBot system handles real-time consultation:
 ![Architecture](docs/architecture.png)

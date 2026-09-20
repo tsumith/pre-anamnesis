@@ -26,6 +26,6 @@ public class DBInit implements CommandLineRunner {
         patientRepo.createTableIfNotExists();
         reportRepo.createTableIfNotExists();
         chatRepo.createTableIfNotExists();
-        System.out.println("✅ All SQLite tables are ready!");
+        System.out.println("All SQLite tables are ready!");
     }
 }

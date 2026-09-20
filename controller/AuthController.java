@@ -13,7 +13,7 @@ import org.springframework.http.HttpStatus;
 public class AuthController {
     @GetMapping("/test")
     public String test() {
-        return "Backend working ✅";
+        return "Backend working";
     }
     private final AuthService authService;
     public AuthController(AuthService authService) {
